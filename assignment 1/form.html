@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment </title>
+</head>
+<body>
+    <!-- Task 3 -->
+    <fieldset>
+        <legend>Feedback</legend>
+        <form>
+            <label for="Name">Name:</label>
+            <input type="text" minlength="30" maxlength="50" required id="Name"/><br><br>
+            <label for="portfolio">Portfolio:</label>
+            <input type="url" name="portfolio" id="portfolio" required/><br><br>
+            <label for="favcolor">Favcolor:</label>
+            <input type="color" name="Favcolor" id="favcolor"/><br><br>
+            <label for="likeness">Likeness</label>
+            <input type="range" name="Likeness" id="likeness" min="1" max="100"/>
+        </form>
+    </fieldset><br><br>
+    <hr>
+    <!--Task 4-->
+    <fieldset>
+        <legend >Signup Form</legend>
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" name="Name" id="name" required placeholder="Enter Your Name"/><br>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email" required placeholder="Enter Your Email"/><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="Gender" id="gender" required/>Male
+            <input type="radio" name="Gender" id="gender" required/>Female
+            <input type="radio" name="Gender" id="gender" required/>None <br>
+            <label for="cars">Cars Brands:</label>
+            <select name="cars" id="Cars" required>
+                <option value="">Please Choose An option</option>
+                <option value="BMW">BMW</option>
+                <option value="BMW">AUDI</option>
+                <option value="BMW">SUZUKI</option>
+                <option value="BMW">INDIGO</option>
+            </select><br>
+            <label for="age">Age:</label>
+            <input type="number" name="Age" id="age" required placeholder="Enter Your Age"/><br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" name="Date Of Birth" id="dob" required/><br>
+            <label for="tel">Phone Nubmer:</label>
+            <input type="tel" name="Tel" id="tel" placeholder="xxx-xxxx-xxx"/><br>
+            <label for="password">Password:</label>
+            <input type="password" name="Password" id="Password" required placeholder="Enter Your Password"/><br>
+            <label for="tc">I agree to the T&C:</label>
+            <input type="checkbox" name="T&C" id="tc" required/><br>
+            <input type="Submit" value="Submit">
+            </select>
+        </form>
+    </fieldset>
+</body>
+</html>
